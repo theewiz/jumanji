@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+* {
+  font-family: 'Poppins',
+    sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+}
+
+:root {
+  --main-color: #ffb43a;
+  --hover-color: hsl(37, 94%, 57%);
+  --body-color: #1e1e2a;
+  --container-color: #2d2e37;
+  --text-color: #fefcff;
+  --line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+.bx {
+  cursor: pointer;
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+.head{
+  margin: 2rem 0 0 0;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+
+.logo a {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.logo a .now {
+  color: var(--main-color);
+}
+
+.search-user .input-search {
+  background-color: var(--container-color);
+  border-radius: 50px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.search-user .input-search input {
+  height: 100%;
+  background-color: transparent;
+  color: var(--text-color);
+  outline: none;
+  border: none;
+}
+
+.search-user .search {
+  font-size: 20px;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.search-user .search:hover {
+  color: var(--main-color);
+}
+
+.search-user {
+  display: flex;
+}
+
+.search-user .user img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+  /* background-color: rgb(52, 52, 48); */
+  padding: 2rem;
+}
+
+.navlink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #b7b7b7;
+}
+
+.navlink:hover {
+  color: var(--text-color);
+  transition: 0.4s all;
+  transform: scale(1.1);
+}
+
+.navlink .bx {
+  font-size: 2.2rem;
+}
+
+.navlink-title {
+  font-size: .85em;
+}
+
+.home {
+  position: relative;
+  min-height: 470px;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  margin-top: 3rem !important;
+}
+
+.home-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.home-text {
+  z-index: 1;
+  padding: 50px;
+}
+
+.home-text h1 {
+  font-size: 3rem;
+  line-height: 1.3;
+}
+
+.home-title {
+  margin-bottom: 0.5rem;
+}
+
+.home-text p {
+  color: var(--main-color);
+}
+
+.home-text .watch-btn {
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.home-text .play-btn {
+  font-size: 2rem;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.trend-head {
+  margin-top: 2rem;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--container-color);
+  padding: 1rem;
+  width: 100%;
+  border-radius: .6rem;
+  border: 2px solid rgba(255, 255, 255, 0.091);
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+/* ----- */
+
+.card .image-box {
+  height: 300px;
+}
+
+.card .image-box img {
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card .watch-btn {
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+  background-color: var(--container-color);
+  padding: 12px;
+  border-radius: 0 0 8px 8px;
+}
+
+.card-text-detail img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.card-heading {
+  color: var(--text-color);
+  /* line-height: 1; */
+}
+
+.card-heading h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.card-heading h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.482);
+  letter-spacing: .3px;
+}
+
+.contain {
+  max-width: 1120px;
+  width: 100%;
+  background-color: beige;
+}

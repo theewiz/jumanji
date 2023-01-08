@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WatchNow</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="shortcut icon" href="./img/fav-icon.png" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- Header start -->
+  <header class="head">
+    <div class="header container">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="#home">Watch<span class="now">Now</span></a>
+      </div>
+
+      <!-- Search-Profile -->
+      <div class="search-user">
+        <form action="" class="input-search">
+          <input type="search" name="" id="search" placeholder="Search here..." onkeyup="search()">
+          <i class='bx bx-search search'></i>
+        </form>
+
+        <a href="#" class="user">
+          <img src="./img/user.jpg" alt="">
+        </a>
+      </div>
+
+
+    </div>
+  </header>
+  <!-- Header end -->
+
+
+  <!-- Navbar start-->
+  <nav class="navbar">
+    <a href="#home" class="navlink">
+      <i class='bx bx-home'></i>
+      <span class="navlink-title">Home</span>
+    </a>
+
+    <a href="#trendy" class="navlink">
+      <i class='bx bxs-hot'></i>
+      <span class="navlink-title">Trendy</span>
+    </a>
+
+    <a href="#explore" class="navlink">
+      <i class='bx bx-compass'></i>
+      <span class="navlink-title">Explore</span>
+    </a>
+
+    <a href="#movies" class="navlink">
+      <i class='bx bx-tv'></i>
+      <span class="navlink-title">Movies</span>
+    </a>
+
+    <a href="#favourite" class="navlink">
+      <i class='bx bxs-heart'></i>
+      <span class="navlink-title">Favourite</span>
+    </a>
+  </nav>
+  <!-- Navbar end -->
+
+
+  <!-- Home start -->
+  <section class="home container" id="home">
+    <img src="/img/home-background.png" alt="" class="home-img">
+
+    <div class="home-text">
+      <h1 class="home-title">Hitman's Wife's <br>Bodyguard</h1>
+      <p>Coming 10th August</p>
+      <a href="#" class="watch-btn">
+        <i class='bx bx-play play-btn'></i>
+        <span class="play">Watch the trailer</span>
+      </a>
+    </div>
+
+    <div class="video-containerr activee">
+      <div class="videeo-box">
+        <video id="myyvideo" src="play-page/hitman.mp4" controls></video>
+        <i class='bx bx-x close-videoo'></i>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="trend-head container" id="trendy">
+    <div class="heading">
+      <h3 class="trend">Trending</h3>
+      <div class="arrow">
+        <i class='bx bxs-chevron-left icon'></i>
+        <i class='bx bxs-chevron-right icon'></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trending-Image start -->
+  <section class="movie container">
+    <!-- box1 -->
+    <div class="movie-box" id="jumanji">
+      <a href="jumanji.html">
+        <img src="./img/movie-1.jpg" alt="">
+      </a>
+      <div class="movie-details">
+        <div class="name-genre">
+          <h3 class="name">Jumanji</h3>
+          <h4 class="genre">Action</h4>
+        </div>
+        <a href="jumanji.html">
+          <i class='bx bx-play play-btn'></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- box1 -->
+    <div class="movie-box">
+      <img src="./img/movie-5.jpg" alt="">
+      <div class="movie-details">
+        <div class="name-genre">
+          <h3 class="name">Spectre</h3>
+          <h4 class="genre">Action</h4>
+        </div>
+        <i class='bx bx-play play-btn'></i>
+      </div>
+    </div>
+
+    <!-- box1 -->
+    <div class="movie-box">
+      <img src="./img/movie-3.jpg" alt="">
+      <div class="movie-details">
+        <div class="name-genre">
+          <h3 class="name">Shang-Chi</h3>
+          <h4 class="genre">Action</h4>
+        </div>
+        <i class='bx bx-play play-btn'></i>
+      </div>
+    </div>
+
+    <!-- box1 -->
+    <div class="movie-box">
+      <img src="./img/popular-movie-3.jpg" alt="">
+      <div class="movie-details">
+        <div class="name-genre">
+          <h3 class="name">Loki</h3>
+          <h4 class="genre">Action</h4>
+        </div>
+        <i class='bx bx-play play-btn'></i>
+      </div>
+    </div>
+  </section>
+  <!-- Trending-Image end -->
+
+
+  <!-- -------------------- -->
+
+
+  <section class="trend-head container">
+    <div class="heading">
+      <h3 class="trend">Popular</h3>
+    </div>
+  </section>
+
+  <!-- Popular start -->
+  <section class="popular container" id="explore">
+    <!-- box1 -->
+    <div class="movie-box">
+      <img src="./img/popular-movie-2.jpg" alt="">
+    </div>
+
+    <!-- box1 -->
+    <div class="movie-box">
+      <img src="./img/popular-movie-6.jpg" alt="">
+    </div>
+
+    <!-- box1 -->
+    <div class="movie-box">
+      <img src="./img/popular-movie-5.jpg" alt="">
+    </div>
+
+    <!-- box1 -->
+    <div class="movie-box">
+      <img src="./img/popular-movie-7.jpg" alt="">
+    </div>
+
+    <!-- box1 -->
+    <div class="movie-box">
+      <img src="./img/popular-movie-1.jpg" alt="">
+    </div>
+
+    <!-- box1 -->
+    <div class="movie-box">
+      <img src="./img/popular-movie-8.jpg" alt="">
+    </div>
+
+    <!-- box1 -->
+    <div class="movie-box">
+      <img src="./img/movie-4.jpg" alt="">
+    </div>
+
+    <!-- box1 -->
+    <div class="movie-box">
+      <img src="./img/movie-2.jpg" alt="">
+  </section>
+  <!-- Popular end -->
+
+  <!-- Next btn -->
+  <div class="next container">
+    <a>More</a>
+  </div>
+
+  <!-- Home end -->
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WatchNow - Jumanji</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="shortcut icon" href="./img/fav-icon.png" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- Header start -->
+  <header class="head">
+    <div class="header container">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="index.html">Watch<span class="now">Now</span></a>
+      </div>
+
+      <!-- Search-Profile -->
+      <div class="search-user">
+        <form class="input-search">
+          <input type="search" name="search" id="search" placeholder="Search here...">
+          <i class='bx bx-search search'></i>
+        </form>
+
+        <a href="#" class="user">
+          <img src="./img/user.jpg" alt="">
+        </a>
+      </div>
+
+    </div>
+  </header>
+  <!-- Header end -->
+
+
+  <!-- Navbar start-->
+  <nav class="navbar">
+    <a href="index.html" class="navlink" id="home">
+      <i class='bx bx-home'></i>
+      <span class="navlink-title">Home</span>
+    </a>
+
+    <a href="index.html" class="navlink" id="trendy">
+      <i class='bx bxs-hot'></i>
+      <span class="navlink-title">Trendy</span>
+    </a>
+
+    <a href="index.html" class="navlink" id="explore">
+      <i class='bx bx-compass'></i>
+      <span class="navlink-title">Explore</span>
+    </a>
+
+    <a href="#movies" class="navlink">
+      <i class='bx bx-tv'></i>
+      <span class="navlink-title">Movies</span>
+    </a>
+
+    <a href="#favourite" class="navlink">
+      <i class='bx bxs-heart'></i>
+      <span class="navlink-title">Favourite</span>
+    </a>
+  </nav>
+  <!-- Navbar end -->
+
+
+  <!-- Jumanji start -->
+  <section class="jumanji container">
+    <img src="/play-page/play-background.jpg" alt="" class="home-img">
+
+    <div class="jumanji-text">
+      <h2>Jumanji: Welcome to the Jungle</h2>
+      <div class="rating">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star-half'></i>
+      </div>
+      <div class="tags">
+        <span class="action">Action</span>
+        <span class="adventure">Adventure</span>
+        <span class="4k">4K</span>
+
+      </div>
+      <a href="#" class="watch-btn">
+        <i class='bx bx-play play-btn jumanji-btn'></i>
+        <span>Watch the trailer</span>
+      </a>
+    </div>
+
+    <div class="video-container active">
+      <div class="video-box">
+        <video id="myvideo" src="play-page/Jumanji.mp4" controls></video>
+        <i class='bx bx-x close-video'></i>
+      </div>
+    </div>
+
+  </section>
+
+  <button class="btnTrailer container">Watch Trailer</button>
+
+
+  <!-- About Movie -->
+  <section class="about-jumanji container">
+    <h1 class="about-title">Jumanji: Welcome to the Jungle</h1>
+    <p class="about-text">When four students play with a magical game, they are drawn to the jungle world of Jumanji, where they are trapped as their avatars. To return to the real world, they must finish the game.</p>
+    
+    <h3 class="about-cast">Movie Cast</h3>
+    <div class="cast-details">
+      <div class="cast">
+        <img src="./play-page/cast2.jpg" alt="" class="cast-image">
+        <h4 class="castname">Karen Gillan</h4>
+      </div>
+
+      <div class="cast">
+        <img src="./play-page/cast1.jpg" alt="" class="cast-image">
+        <h4 class="castname">Dwayne Johnson</h4>
+      </div>
+
+      <div class="cast">
+        <img src="./play-page/cast4.jpg" alt="" class="cast-image">
+        <h4 class="castname">Jack Black</h4>
+      </div>
+
+      <div class="cast">
+        <img src="./play-page/cast6.jpg" alt="" class="cast-image">
+        <h4 class="castname">Madison Iseman</h4>
+      </div>
+
+      <div class="cast">
+        <img src="./play-page/cast3.jpg" alt="" class="cast-image">
+        <h4 class="castname">Keviin Hart</h4>
+      </div>
+
+      <div class="cast">
+        <img src="./play-page/cast5.jpg" alt="" class="cast-image">
+        <h4 class="castname">Nick Jonas</h4>
+      </div>
+    </div>
+  </section>
+
+  <section class="download container">
+    <h2>Download Movie</h2>
+    <div class="download-links">
+      <a href="" download>360p</a>
+      <a href="" download>720p</a>
+      <a href="" download>1080p</a>
+    </div>
+  </section>
+  
+  <script src="jumanji.js"></script>
+</body>
+
+</html>
